@@ -38,8 +38,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 		driver.findElement(By.xpath("//input[@id='user_name']")).sendKeys("sampath");
 		driver.findElement(By.xpath("//input[@id='user_pass']")).sendKeys("KYCnet123");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		//Sikuli wait
 		screen.wait(lgn, 10);
+		//Sikuli image action
 		screen.click(lgn);
 		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
