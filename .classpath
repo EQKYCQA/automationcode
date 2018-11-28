@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Java"/>
+	<classpathentry kind="src" path="Selenium"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/client-combined-3.3.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cssparser-0.9.21.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-reporting-3.16.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/extentreports-3.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/fontbox-2.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/fontbox-2.0.12.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/guava-21.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/htmlunit-2.24.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/htmlunit-core-js-2.23.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/htmlunit-driver-2.24.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jetty-io-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jetty-util-9.4.1.v20170120.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/neko-htmlunit-2.24.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/pdfbox-2.0.12.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/phantomjsdriver-1.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-examples-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-excelant-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-ooxml-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-ooxml-schemas-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-scratchpad-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/testng-6.9.10.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/websocket-api-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/websocket-client-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/websocket-common-9.2.20.v20161216.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/sikuli-script.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
