@@ -8,7 +8,6 @@
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cglib-nodep-3.2.4.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/client-combined-3.3.0-nodeps.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cobertura-2.1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-codec-1.9.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-collections4-4.1.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/commons-exec-1.3.jar"/>
@@ -23,9 +22,7 @@
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-jvm-deps-1.0.5.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/cucumber-reporting-3.16.0.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/curvesapi-1.04.jar"/>
-	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/extentreports-3.0.3.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/extentreports-3.0.6.jar"/>
-	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/fontbox-2.0.3.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/fontbox-2.0.12.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/freemarker-2.3.23.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/gherkin-2.12.1.jar"/>
@@ -53,7 +50,6 @@
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/mongodb-driver-core-3.3.0.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/neko-htmlunit-2.24.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/pdfbox-2.0.12.jar"/>
-	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/phantomjsdriver-1.4.0.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-examples-3.16-beta2.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/poi-excelant-3.16-beta2.jar"/>
@@ -70,7 +66,17 @@
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/xmlbeans-2.6.0.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/okio-1.14.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Automation Projects/AutomationLearning/Jar/phantomjsdriver-1.4.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,8 +1,5 @@
 package bLoops;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class b1loops 
 {
 	public static void main(String[] args) 

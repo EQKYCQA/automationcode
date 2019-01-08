@@ -5,8 +5,7 @@ package fImage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-	import org.sikuli.script.FindFailed;
+import org.sikuli.script.FindFailed;
 	import org.sikuli.script.Pattern;
 	import org.sikuli.script.Screen;
 	 
@@ -29,7 +28,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 	System.setProperty("webdriver.chrome.driver", "D:\\Dump\\Backup\\Automation\\Selenium\\driver\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 	driver.manage().window().maximize();
-	driver.get("https://staging.ie.kycnet.com/reviews/sequencediagram/28541/481/88339/");
+	driver.get("https://staging.ie.kycnet.com/reviews/sequencediagram/28151/485/82361/");
 	
 	
 	try

@@ -1,13 +1,6 @@
 package dTakesScreenshot;
 
-import java.awt.Rectangle;
-import java.awt.Robot;
-import java.awt.Toolkit;
-import java.awt.image.BufferedImage;
-import java.io.File;
 import java.util.concurrent.TimeUnit;
-
-import javax.imageio.ImageIO;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
