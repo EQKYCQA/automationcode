@@ -6,12 +6,14 @@ public class d1ClassMethodObject
 
 	int x=90;
 	int y=100;
-	//data member
+	//data member or instance variable
+	//stored in heap memory
 	
 	public static void main(String[] args) 
 	{
 		d1ClassMethodObject obj1 = new d1ClassMethodObject();
 		//When object initialized memory allocated for data member and method. Object required for calling non static method.
+		//obj1 stored in stack
 		
 		System.out.println("X value: "+obj1.x);
 		System.out.println("Y value: "+obj1.y);

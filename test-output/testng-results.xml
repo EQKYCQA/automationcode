@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17030" started-at="2019-01-07T05:48:07Z" finished-at="2019-01-07T05:48:24Z">
+  <suite name="Default suite" duration-ms="104" started-at="2019-03-28T14:09:41Z" finished-at="2019-03-28T14:09:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17030" started-at="2019-01-07T05:48:07Z" finished-at="2019-01-07T05:48:24Z">
-      <class name="gHeadless.G3PhantomJS">
-        <test-method status="PASS" signature="PhantomJS()[pri:0, instance:gHeadless.G3PhantomJS@31ef45e3]" name="PhantomJS" duration-ms="17005" started-at="2019-01-07T11:18:07Z" finished-at="2019-01-07T11:18:24Z">
+    <test name="Default test" duration-ms="104" started-at="2019-03-28T14:09:41Z" finished-at="2019-03-28T14:09:41Z">
+      <class name="iVerifyUIText.i1VerifyUIText">
+        <test-method status="PASS" signature="intialise()[pri:0, instance:iVerifyUIText.i1VerifyUIText@5891e32e]" name="intialise" is-config="true" duration-ms="20490" started-at="2019-03-28T19:39:20Z" finished-at="2019-03-28T19:39:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PhantomJS -->
-      </class> <!-- gHeadless.G3PhantomJS -->
+        </test-method> <!-- intialise -->
+        <test-method status="FAIL" signature="verifyText()[pri:0, instance:iVerifyUIText.i1VerifyUIText@5891e32e]" name="verifyText" duration-ms="61" started-at="2019-03-28T19:39:41Z" finished-at="2019-03-28T19:39:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assert fail expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assert fail expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at iVerifyUIText.i1VerifyUIText.verifyText(i1VerifyUIText.java:55)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyText -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:iVerifyUIText.i1VerifyUIText@5891e32e]" name="teardown" is-config="true" duration-ms="1298" started-at="2019-03-28T19:39:41Z" finished-at="2019-03-28T19:39:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- iVerifyUIText.i1VerifyUIText -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

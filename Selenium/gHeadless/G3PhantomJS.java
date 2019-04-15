@@ -13,7 +13,7 @@ public class G3PhantomJS
 	@Test
 	public void PhantomJS()
 	{
-		File src = new File("D:\\Automation Projects\\AutomationLearning\\PhantomJS_exe\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
+		File src = new File("PhantomJS_exe\\phantomjs-2.1.1-windows\\bin\\phantomjs.exe");
 		System.setProperty("phantomjs.binary.path", src.getAbsolutePath());
 		
 		WebDriver driver = new PhantomJSDriver();
@@ -26,16 +26,17 @@ public class G3PhantomJS
 		boolean buttonStatus = login.isDisplayed();
 		if(buttonStatus==true)
 		{
+			System.out.println("Login page title:"+ driver.getTitle());
 			username.clear();
 			username.sendKeys("javier van der meulen");
 			password.clear();
 			password.sendKeys("KYCnet123");
 			login.click();
-			System.out.println("Home page "+ driver.getTitle());
+			System.out.println("Home page title:"+ driver.getTitle());
 		}
 		else
 		{
-			System.out.println("Login page "+ driver.getTitle());
+			System.out.println("Login page not displayed, you are in "+ driver.getTitle());
 		}
 		driver.manage().window().maximize();
 		driver.quit();

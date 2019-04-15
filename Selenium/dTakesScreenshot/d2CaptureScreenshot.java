@@ -53,7 +53,7 @@ public class d2CaptureScreenshot
 		BufferedImage image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
 
 		// This will store screenshot on Specific location
-		ImageIO.write(image, "png", new File("D:\\Automation Projects\\AutomationLearning\\Screenshots\\FullScreen.png")); 
+		ImageIO.write(image, "png", new File(".\\Screenshots\\FullScreen.png")); 
  
 	}
 	
@@ -63,7 +63,7 @@ public class d2CaptureScreenshot
 	{
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		
-		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), new File("D:\\Automation Projects\\AutomationLearning\\Screenshots\\ScreenUsingFileHandler.png"));
+		FileHandler.copy(ts.getScreenshotAs(OutputType.FILE), new File(".\\Screenshots\\ScreenUsingFileHandler.png"));
 	}
 
 }

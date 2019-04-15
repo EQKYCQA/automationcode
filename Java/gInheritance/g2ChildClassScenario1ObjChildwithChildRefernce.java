@@ -1,5 +1,7 @@
 package gInheritance;
 
+//Single Inheritance
+
 public class g2ChildClassScenario1ObjChildwithChildRefernce extends g1ParentClass
 //Class name followed by Extends keyword and class name (class from which you wants to inherit and use it method. 
 {
