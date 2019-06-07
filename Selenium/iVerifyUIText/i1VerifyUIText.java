@@ -35,29 +35,45 @@ public class i1VerifyUIText
 		{
 			System.out.println("Unable to open browser");
 			Log.EXCEPTION.toString();
-		}
-		
+		}	
 	}
 	
-		
 	@Test
 	public void verifyText()
 	{
 		try
 		{
-		String actualText = driver.findElement(By.xpath("//li[@id='menu-item-3800']")).getText();
-		
-		String expectedText = "Home";
-		//Using stored
-		Assert.assertEquals(actualText, expectedText);
-		
-		//Using direct fetching
-		Assert.assertEquals(driver.findElement(By.xpath("//li[@id='menu-item-3800']")).getText(), "Homes");
-		
-		//Using  
-		Assert.assertTrue(actualText.contains("Hom"));
-		
-		//System.out.println("Actual value is "+actualText);
+			String title=driver.getTitle();
+
+			String actualText = driver.findElement(By.xpath("//li[@id='menu-item-3800']")).getText();
+			
+			String actualHTML = driver.findElement(By.xpath("//li[@id='menu-item-3800']")).getAttribute("innerHTML");
+
+			String expectedText = "Home";
+			
+			boolean titlePresent = driver.getPageSource().contains("Selenium WebDriver tutorial - Selenium WebDriver tutorial Step by Step");
+			Assert.assertTrue(titlePresent);
+
+			//Condition assert with contains text
+			Assert.assertTrue(title.contains("tutorial"));
+			
+			//Using direct assert
+			Assert.assertEquals(title, "Selenium WebDriver tutorial - Selenium WebDriver tutorial Step by Step");
+
+			//Using stored
+			Assert.assertEquals(actualText, expectedText);
+
+			//Using direct fetching
+			Assert.assertEquals(driver.findElement(By.xpath("//li[@id='menu-item-3800']")).getText(), "Home");
+
+			//Using  true assertion for element
+			Assert.assertTrue(actualText.contains("Hom"));
+
+			System.out.println("Actual text is "+actualText);
+			
+			System.out.println("Actual HTML is "+actualHTML);
+			
+			System.out.println("Actual source is "+titlePresent);
 		}
 		
 		catch (Exception e)
