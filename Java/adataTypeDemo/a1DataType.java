@@ -5,7 +5,7 @@ public class a1DataType
 
 	public static void main(String[] args) 
 	{
-		// Primitive (boolean, char, byte, short, int, long, float & double and non primitive (string, array, class and interfaces) data type
+		//Primitive (boolean, char, byte, short, int, long, float & double and non primitive (string, array, class and interfaces) data type
 		
 		//Comment for declaration and initialization
 		boolean newstaus = false;
